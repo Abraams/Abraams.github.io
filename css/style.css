@@ -2644,6 +2644,7 @@ input.button:active::after,
 }
 
 .services-item__description {
+  max-width: 95%;
   font-size: 25px;
   opacity: 0;
   -webkit-transform: translateY(8px);
@@ -4483,7 +4484,7 @@ input.button:active::after,
     padding-right: 0;
     width: 100%;
     max-width: 720px;
-    min-height: 400px;
+    min-height: 0;
   }
 
   .main-image__wrapper-info {
@@ -4767,16 +4768,8 @@ input.button:active::after,
 @media screen and (max-width: 601px) {
   .backcall {
     right: 115px;
-    bottom: 27px;
-  }
-
-  .wrap_c372 {
-    z-index: 999;
-  }
-
-  ._orientationRight_ee7f .button_58fd {
-    margin-right: 27px !important;
-    margin-bottom: 115px !important;
+    bottom: 22px;
+    right: 99px;
   }
 
   .offer__swiper-slide {
