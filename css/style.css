@@ -3049,8 +3049,8 @@ input.button:active::after,
 }
 
 .special__card {
+  margin: 0 auto;
   margin: 20px 0;
-  padding-left: 100px;
   color: #fff;
   -webkit-border-radius: 10px;
      -moz-border-radius: 10px;
@@ -3068,6 +3068,7 @@ input.button:active::after,
 .special__content {
   background: rgba(255, 255, 255, 0.35);
   padding: 120px 35px 100px;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -4980,10 +4981,6 @@ input.button:active::after,
 
   .special__card {
     padding: 0;
-  }
-
-  .special__content {
-    margin: 0 auto;
   }
 
   .promo__swiper-slide.swiper-slide picture {
